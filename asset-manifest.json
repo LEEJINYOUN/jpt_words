@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jpt_words/static/css/main.4e8721c6.css",
-    "main.js": "/jpt_words/static/js/main.8628fbed.js",
-    "static/js/787.40f006e3.chunk.js": "/jpt_words/static/js/787.40f006e3.chunk.js",
-    "index.html": "/jpt_words/index.html",
-    "main.4e8721c6.css.map": "/jpt_words/static/css/main.4e8721c6.css.map",
-    "main.8628fbed.js.map": "/jpt_words/static/js/main.8628fbed.js.map",
-    "787.40f006e3.chunk.js.map": "/jpt_words/static/js/787.40f006e3.chunk.js.map"
+    "main.css": "/login/static/css/main.d2185473.css",
+    "main.js": "/login/static/js/main.7668e44b.js",
+    "static/js/787.40f006e3.chunk.js": "/login/static/js/787.40f006e3.chunk.js",
+    "index.html": "/login/index.html",
+    "main.d2185473.css.map": "/login/static/css/main.d2185473.css.map",
+    "main.7668e44b.js.map": "/login/static/js/main.7668e44b.js.map",
+    "787.40f006e3.chunk.js.map": "/login/static/js/787.40f006e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e8721c6.css",
-    "static/js/main.8628fbed.js"
+    "static/css/main.d2185473.css",
+    "static/js/main.7668e44b.js"
   ]
 }
