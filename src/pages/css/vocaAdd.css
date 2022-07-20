@@ -1,0 +1,248 @@
+.vocaAdd_page {
+  width: 100%;
+  height: 100vh;
+  background-color: #c3ebe3;
+  text-align: center;
+}
+
+.vocaAdd_container {
+  margin: auto;
+  padding: 30px 0 0 0;
+  width: 80%;
+  height: 95%;
+}
+
+.vocaAdd_top_container {
+  margin: auto;
+  width: 90%;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-bottom: 1px solid #bdb6b6a1;
+  border-radius: 20px 20px 0 0;
+}
+
+.vocaAdd_add_box {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.vocaAdd_add_box > input {
+  padding: 0 10px;
+  width: 20%;
+  height: 35px;
+  border: 2px solid #aaa;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.vocaAdd_add_box > input:focus {
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+  outline: none;
+}
+
+.vocaAdd_add_box > input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.vocaAdd_add_Btn {
+  width: 80px;
+  height: 35px;
+  font-size: 25px;
+  cursor: pointer;
+  border: none;
+  background: blueviolet;
+  color: white;
+  transition: all 0.5s;
+  border-radius: 7px;
+}
+
+.vocaAdd_add_Btn:hover {
+  background: rgba(96, 96, 0, 0.5);
+  color: white;
+  transition: all 0.5s;
+}
+
+.vocaAdd_select_box {
+  margin: auto;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vocaAdd_orderSelect_menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.vocaAdd_orderSelect_menu > li {
+  margin: 0 23px;
+}
+
+.vocaAdd_orderSelect_menu > li > button {
+  width: 120px;
+  height: 30px;
+  background-color: #53a2ec;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.vocaAdd_orderSelect_menu > li > button:hover {
+  color: lightcoral;
+}
+
+.vocaAdd_botton_container {
+  margin: auto;
+  padding: 10px 0;
+  width: 90%;
+  height: calc(95% - 130px);
+  overflow-y: auto;
+  background-color: #ffffff;
+  border-radius: 0 0 20px 20px;
+}
+
+.vocaAdd_botton_container::-webkit-scrollbar {
+  display: none;
+}
+
+.vocaAdd_card {
+  margin: 10px auto;
+  background-color: #f2f2f2;
+  width: 90%;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.vocaAdd_JapaneseAndyomigana {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52%;
+  height: 100%;
+  font-size: 27px;
+  padding: 2px 0;
+}
+
+.vocaAdd_korean {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+  font-size: 27px;
+  padding: 2px 0;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+}
+
+.vocaAdd_remove {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8%;
+  padding: 2px 0;
+  color: red;
+}
+
+.vocaAdd_trash {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.vocaAdd_trash:hover {
+  transform: scale(1.4);
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
+  .vocaAdd_container {
+    padding: 25px 0 0 0;
+    height: 97%;
+  }
+
+  .vocaAdd_add_box > input {
+    font-size: 12px;
+  }
+
+  .vocaAdd_orderSelect_menu > li {
+    margin: 0 14px;
+  }
+
+  .vocaAdd_orderSelect_menu > li > button {
+    width: 110px;
+    font-size: 14px;
+  }
+
+  .vocaAdd_JapaneseAndyomigana {
+    font-size: 21px;
+  }
+
+  .vocaAdd_korean {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .vocaAdd_top_container {
+    height: 150px;
+  }
+
+  .vocaAdd_add_box {
+    height: 50%;
+  }
+
+  .vocaAdd_add_box > input {
+    font-size: 10px;
+  }
+
+  .vocaAdd_add_Btn {
+    font-size: 23px;
+  }
+
+  .vocaAdd_select_box {
+    height: 50%;
+  }
+
+  .vocaAdd_orderSelect_menu {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .vocaAdd_orderSelect_menu > li {
+    margin: 4px 5px;
+  }
+
+  .vocaAdd_orderSelect_menu > li > button {
+    width: 110px;
+    height: 27px;
+    font-size: 13px;
+  }
+
+  .vocaAdd_botton_container {
+    height: calc(95% - 150px);
+  }
+
+  .vocaAdd_JapaneseAndyomigana {
+    font-size: 19px;
+  }
+
+  .vocaAdd_korean {
+    font-size: 17px;
+  }
+}

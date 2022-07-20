@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "Japanese": "向き合う",
+    "yomigana": "むきあう",
+    "korean": "마주하다"
+  },
+  {
+    "id": 1,
+    "Japanese": "食い止める",
+    "yomigana": "くいとめる",
+    "korean": "먹다, 저지하다"
+  },
+  {
+    "id": 2,
+    "Japanese": "頷く",
+    "yomigana": "うなずく",
+    "korean": "수긍하다"
+  },
+  {
+    "id": 3,
+    "Japanese": "呼びかける",
+    "yomigana": "よびかける",
+    "korean": "호소하다"
+  },
+  {
+    "id": 4,
+    "Japanese": "過労",
+    "yomigana": "かろう",
+    "korean": "과로"
+  },
+  {
+    "id": 5,
+    "Japanese": "足手まとい",
+    "yomigana": "あしてまとい",
+    "korean": "방해"
+  },
+  {
+    "id": 6,
+    "Japanese": "手遅れ",
+    "yomigana": "ておくれ",
+    "korean": "이미 늦음"
+  },
+  {
+    "id": 7,
+    "Japanese": "しんどい",
+    "yomigana": "しんどい",
+    "korean": "힘들다"
+  },
+  {
+    "id": 8,
+    "Japanese": "受け止める",
+    "yomigana": "うけとめる",
+    "korean": "받아들이다"
+  },
+  {
+    "id": 9,
+    "Japanese": "書き込む",
+    "yomigana": "かきこむ",
+    "korean": "기입하다"
+  },
+  {
+    "id": 10,
+    "Japanese": "執り行う",
+    "yomigana": "とりおこなう",
+    "korean": "거행하다"
+  },
+  {
+    "id": 11,
+    "Japanese": "番号札",
+    "yomigana": "ばんごうふだ",
+    "korean": "번호표"
+  },
+  {
+    "id": 12,
+    "Japanese": "愛しい",
+    "yomigana": "いとしい",
+    "korean": "사랑스럽다"
+  },
+  {
+    "id": 13,
+    "Japanese": "切り下げ",
+    "yomigana": "きりさげ",
+    "korean": "깎아내림"
+  },
+  {
+    "id": 14,
+    "Japanese": "除く",
+    "yomigana": "のぞく",
+    "korean": "제외하다"
+  },
+  {
+    "id": 15,
+    "Japanese": "面持ち",
+    "yomigana": "おももち",
+    "korean": "표정"
+  },
+  {
+    "id": 16,
+    "Japanese": "悔やみ",
+    "yomigana": "くやみ",
+    "korean": "후회"
+  },
+  {
+    "id": 17,
+    "Japanese": "身代金",
+    "yomigana": "みのしろきん",
+    "korean": "몸값"
+  },
+  {
+    "id": 18,
+    "Japanese": "置き去り",
+    "yomigana": "おきざり",
+    "korean": "내버려두고 감"
+  },
+  {
+    "id": 19,
+    "Japanese": "怪我人",
+    "yomigana": "けがにん",
+    "korean": "부상자"
+  },
+  {
+    "id": 20,
+    "Japanese": "小手先",
+    "yomigana": "こてさき",
+    "korean": "잔재주"
+  },
+  {
+    "id": 21,
+    "Japanese": "使い捨て",
+    "yomigana": "つかいすて",
+    "korean": "1회용"
+  },
+  {
+    "id": 22,
+    "Japanese": "討論",
+    "yomigana": "とうろん",
+    "korean": "토론"
+  },
+  {
+    "id": 23,
+    "Japanese": "山を当てる",
+    "yomigana": "やまをあてる",
+    "korean": "운으로 행운을 잡다"
+  },
+  {
+    "id": 24,
+    "Japanese": "折り返し",
+    "yomigana": "おりかえし",
+    "korean": "반환"
+  },
+  {
+    "id": 25,
+    "Japanese": "急騰",
+    "yomigana": "きゅうとう",
+    "korean": "급등"
+  },
+  {
+    "id": 26,
+    "Japanese": "引っ張る",
+    "yomigana": "ひっぱる",
+    "korean": "잡아당기다"
+  },
+  {
+    "id": 27,
+    "Japanese": "口ずさむ",
+    "yomigana": "くちずさむ",
+    "korean": "흥얼거리다"
+  },
+  {
+    "id": 28,
+    "Japanese": "展開",
+    "yomigana": "てんかい",
+    "korean": "전개"
+  },
+  {
+    "id": 29,
+    "Japanese": "一時逃れ",
+    "yomigana": "いちじのがれ",
+    "korean": "임시방편"
+  },
+  {
+    "id": 30,
+    "Japanese": "炒める",
+    "yomigana": "いためる",
+    "korean": "볶다"
+  },
+  {
+    "id": 31,
+    "Japanese": "深呼吸",
+    "yomigana": "しんこきゅう",
+    "korean": "심호흡"
+  },
+  {
+    "id": 32,
+    "Japanese": "関わる",
+    "yomigana": "かかわる",
+    "korean": "관여하다"
+  },
+  {
+    "id": 33,
+    "Japanese": "触る",
+    "yomigana": "さわる",
+    "korean": "만지다"
+  },
+  {
+    "id": 34,
+    "Japanese": "獲得",
+    "yomigana": "かくとく",
+    "korean": "획득"
+  },
+  {
+    "id": 35,
+    "Japanese": "弾力",
+    "yomigana": "だんりょく",
+    "korean": "탄력"
+  },
+  {
+    "id": 36,
+    "Japanese": "仮払い",
+    "yomigana": "かりばらい",
+    "korean": "가불"
+  },
+  {
+    "id": 37,
+    "Japanese": "相続",
+    "yomigana": "そうぞく",
+    "korean": "상속"
+  },
+  {
+    "id": 38,
+    "Japanese": "置き換わる",
+    "yomigana": "おきかわる",
+    "korean": "뒤바뀌다"
+  },
+  {
+    "id": 39,
+    "Japanese": "名付ける",
+    "yomigana": "なづける",
+    "korean": "이름 붙이다"
+  }
+]

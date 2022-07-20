@@ -1,0 +1,103 @@
+.kr_question_modal_page {
+  width: 100%;
+  height: 101.2vh;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 200;
+}
+
+.kr_question_modal_container {
+  margin: 30px auto 0;
+  width: 50%;
+  height: 80vh;
+  background-color: white;
+  overflow: auto;
+}
+
+.kr_question_modal_container::-webkit-scrollbar {
+  display: none;
+}
+
+.kr_question_modal_top {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #dddddd;
+}
+
+.kr_modal_top_left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+}
+
+.kr_modal_top_left > button {
+  width: 100px;
+  height: 100%;
+  font-size: 15px;
+  background: none;
+  border: none;
+  border-right: 1px solid #dddddd;
+  cursor: pointer;
+}
+
+.kr_modal_matched_btn.active {
+  color: blue;
+}
+
+.kr_modal_mismatched_btn.active {
+  color: red;
+}
+
+.kr_modal_top_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+}
+
+.kr_modal_close {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  background: blueviolet;
+  border: none;
+  color: white;
+  transition: all 0.5s;
+  border-radius: 7px;
+}
+
+.kr_modal_close:hover {
+  background: rgba(96, 96, 0, 0.5);
+  transition: all 0.5s;
+}
+
+.kr_question_modal_botton {
+  margin: auto;
+  width: 100%;
+  height: calc(80vh - 70px);
+  overflow-y: auto;
+}
+
+.kr_question_modal_botton::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .kr_question_modal_container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .kr_question_modal_container {
+    width: 70%;
+  }
+}
