@@ -1,6 +1,6 @@
 /* eslint-disable */
 import "../css/words.css";
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import { BsFillBookmarkPlusFill } from "react-icons/bs";
 import { TiDelete } from "react-icons/ti";
 
@@ -96,22 +96,33 @@ const Words = ({
                   ? "words_bookmark_icon"
                   : "words_bookmark_icon words_bookmark_checked"
               }
-              onClick={(id) => {
-                const BookmarkList = {
-                  id: val.id,
-                  Japanese: val.Japanese,
-                  yomigana: val.yomigana,
-                  korean: val.korean,
+              onClick={() => {
+                const BookmarkList = words_bookmark_list.concat([
+                  {
+                    id: val.id,
+                    Japanese: val.Japanese,
+                    yomigana: val.yomigana,
+                    korean: val.korean,
+                  },
+                ]);
+                let AddBookmarkListArray = [];
+
+                const BookmarkRemove = (id) => {
+                  const BookmarkRemoveList = words_bookmark_list.filter(
+                    (item) => item.id !== id
+                  );
+                  AddBookmarkListArray.push(BookmarkRemoveList);
+                  setWords_bookmark_list(BookmarkRemoveList);
                 };
+
                 let BookmarkCopy = [...words_bookmark];
+
                 if (BookmarkCopy[val.id] == 0) {
                   BookmarkCopy[val.id] = BookmarkCopy[val.id] + 1;
                   setWords_bookmark(BookmarkCopy);
-                  words_bookmark_list.push(BookmarkList);
-                  localStorage.setItem(
-                    "AddBookmarkList",
-                    JSON.stringify(words_bookmark_list)
-                  );
+
+                  AddBookmarkListArray.push(BookmarkList);
+                  setWords_bookmark_list(BookmarkList);
                 } else if (BookmarkCopy[val.id] == 1) {
                   BookmarkCopy[val.id] = BookmarkCopy[val.id] - 1;
                   setWords_bookmark(BookmarkCopy);
@@ -127,24 +138,6 @@ const Words = ({
         </div>
       );
     });
-
-  // useEffect(() => {}, [words_bookmark_list]);
-
-  // useEffect(() => {
-  //   let LocalBookmarkList = JSON.parse(localStorage.getItem("AddBookmarkList"));
-  //   if (LocalBookmarkList) {
-  //     setWords_bookmark_list(LocalBookmarkList[0]);
-  //   }
-  // }, [words_bookmark_list]);
-
-  const BookmarkRemove = (id) => {
-    const filterArray = words_bookmark_list.filter((item) => item.id !== id);
-    localStorage.setItem(
-      "AddBookmarkList",
-      JSON.stringify(words_bookmark_list)
-    );
-    setWords_bookmark_list(filterArray);
-  };
 
   return (
     <section className="words_page">

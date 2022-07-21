@@ -194,7 +194,6 @@ const App = () => {
       setLogin_error("아이디 또는 비밀번호가 일치하지 않습니다");
     }
   };
-
   const login_out = () => {
     setLogin_user({
       name: "",

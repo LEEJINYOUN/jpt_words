@@ -238,5 +238,65 @@
     "Japanese": "名付ける",
     "yomigana": "なづける",
     "korean": "이름 붙이다"
+  },
+  {
+    "id": 40,
+    "Japanese": "玉にきず",
+    "yomigana": "たまにきず",
+    "korean": "옥의 티"
+  },
+  {
+    "id": 41,
+    "Japanese": "祀る",
+    "yomigana": "まつる",
+    "korean": "제사를 지내다"
+  },
+  {
+    "id": 42,
+    "Japanese": "けちを付ける",
+    "yomigana": "けちをつける",
+    "korean": "흠을 잡다"
+  },
+  {
+    "id": 43,
+    "Japanese": "未練がましい",
+    "yomigana": "みれんがましい",
+    "korean": "아쉬워하다"
+  },
+  {
+    "id": 44,
+    "Japanese": "酔っ払う",
+    "yomigana": "よっぱらう",
+    "korean": "술취하다"
+  },
+  {
+    "id": 45,
+    "Japanese": "炊く",
+    "yomigana": "たく",
+    "korean": "밥을 짓다"
+  },
+  {
+    "id": 46,
+    "Japanese": "逸材",
+    "yomigana": "いつざい",
+    "korean": "뛰어난 인재"
+  },
+  {
+    "id": 47,
+    "Japanese": "台無し",
+    "yomigana": "だいなし",
+    "korean": "쓸모없게 됨"
+  },
+  {
+    "id": 48,
+    "Japanese": "猫をかぶる",
+    "yomigana": "ねこをかぶる",
+    "korean": "내숭을 떨다"
+  },
+  {
+    "id": 49,
+    "Japanese": "指す",
+    "yomigana": "さす",
+    "korean": "가리키다"
   }
 ]

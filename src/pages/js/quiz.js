@@ -68,14 +68,14 @@ const quiz = ({
               to="/quiz/kr_quiz"
               onClick={kr_startOnclick}
             >
-              일단어 보고 뜻 맞추기
+              단어 보고 뜻 맞추기
             </Link>
             <Link
               className="quiz_link"
               to="/quiz/jp_quiz"
               onClick={jp_startOnclick}
             >
-              뜻 보고 일단어 맞추기
+              뜻 보고 단어 맞추기
             </Link>
           </ul>
         </div>
