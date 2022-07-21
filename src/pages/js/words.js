@@ -1,6 +1,6 @@
 /* eslint-disable */
 import "../css/words.css";
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import { BsFillBookmarkPlusFill } from "react-icons/bs";
 import { TiDelete } from "react-icons/ti";
 
@@ -106,22 +106,45 @@ const Words = ({
                   },
                 ]);
                 let AddBookmarkListArray = [];
+                let AddBookmarkZeroArray = [];
 
                 const BookmarkRemove = (id) => {
                   const BookmarkRemoveList = words_bookmark_list.filter(
                     (item) => item.id !== id
                   );
                   AddBookmarkListArray.push(BookmarkRemoveList);
+                  localStorage.setItem(
+                    "AddBookmarkLists",
+                    JSON.stringify(AddBookmarkListArray)
+                  );
                   setWords_bookmark_list(BookmarkRemoveList);
+
+                  const BookmarkZeroRemoveList = BookmarkCopy.filter(
+                    (item) => item.id !== id
+                  );
+                  AddBookmarkZeroArray.push(BookmarkZeroRemoveList);
+                  localStorage.setItem(
+                    "AddBookmarkZeroList",
+                    JSON.stringify(AddBookmarkZeroArray)
+                  );
                 };
 
                 let BookmarkCopy = [...words_bookmark];
 
                 if (BookmarkCopy[val.id] == 0) {
                   BookmarkCopy[val.id] = BookmarkCopy[val.id] + 1;
+                  AddBookmarkZeroArray.push(BookmarkCopy);
+                  localStorage.setItem(
+                    "AddBookmarkZeroList",
+                    JSON.stringify(AddBookmarkZeroArray)
+                  );
                   setWords_bookmark(BookmarkCopy);
 
                   AddBookmarkListArray.push(BookmarkList);
+                  localStorage.setItem(
+                    "AddBookmarkLists",
+                    JSON.stringify(AddBookmarkListArray)
+                  );
                   setWords_bookmark_list(BookmarkList);
                 } else if (BookmarkCopy[val.id] == 1) {
                   BookmarkCopy[val.id] = BookmarkCopy[val.id] - 1;
@@ -138,6 +161,22 @@ const Words = ({
         </div>
       );
     });
+
+  useEffect(() => {}, [words_bookmark_list, words_bookmark]);
+
+  useEffect(() => {
+    let LocalBookmarkList = JSON.parse(
+      localStorage.getItem("AddBookmarkLists")
+    );
+    let LocalBookmarkZeroList = JSON.parse(
+      localStorage.getItem("AddBookmarkZeroList")
+    );
+
+    if (LocalBookmarkList && LocalBookmarkZeroList) {
+      setWords_bookmark_list(LocalBookmarkList[0]);
+      setWords_bookmark(LocalBookmarkZeroList[0]);
+    }
+  }, []);
 
   return (
     <section className="words_page">
