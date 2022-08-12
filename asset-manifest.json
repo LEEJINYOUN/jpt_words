@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/jpt_words/static/css/main.d2185473.css",
-    "main.js": "/jpt_words/static/js/main.bf878267.js",
+    "main.js": "/jpt_words/static/js/main.ca0ed215.js",
     "static/js/787.40f006e3.chunk.js": "/jpt_words/static/js/787.40f006e3.chunk.js",
     "index.html": "/jpt_words/index.html",
     "main.d2185473.css.map": "/jpt_words/static/css/main.d2185473.css.map",
-    "main.bf878267.js.map": "/jpt_words/static/js/main.bf878267.js.map",
+    "main.ca0ed215.js.map": "/jpt_words/static/js/main.ca0ed215.js.map",
     "787.40f006e3.chunk.js.map": "/jpt_words/static/js/787.40f006e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2185473.css",
-    "static/js/main.bf878267.js"
+    "static/js/main.ca0ed215.js"
   ]
 }
