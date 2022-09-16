@@ -10,13 +10,13 @@
 
 ## (1) 사이드바 확인
 
-![sidebar 확인_readme](https://user-images.githubusercontent.com/102113808/182266656-600d66e3-9770-47a6-bd8a-0738f54435f1.gif)
+![sidebar 확인_readme](https://user-images.githubusercontent.com/102113808/190536935-984c8191-2e84-407a-8a7d-76894d965c89.gif)
 
 ---
 
 ## (2) 단어장
 
-![단어장_readme](https://user-images.githubusercontent.com/102113808/182266584-273f8e2a-aa26-4306-aca4-3a10cf04db0b.gif)
+![단어장_readme](https://user-images.githubusercontent.com/102113808/190536962-5734b30c-90ae-4f88-8d73-4f4d1ef7594d.gif)
 
 - 정렬버튼 (등록, 일어, 발음, 뜻)을 만들어, 각 항목별로 정렬할 수 있습니다.
 - 검색기능으로 단어를 검색할 수 있습니다.
@@ -25,7 +25,7 @@
 
 ## (3) 즐겨찾기
 
-![즐겨찾기_readme](https://user-images.githubusercontent.com/102113808/182266601-fc464de0-c431-4d2e-9f25-00c1b7df9dd0.gif)
+![즐겨찾기_readme](https://user-images.githubusercontent.com/102113808/190536977-488b13c1-c0cc-46a2-b5ee-613b6254b0a7.gif)
 
 - 단어장에 즐겨찾기 버튼을 누르면 빨간색이 되고, 그 정보가 즐겨찾기 페이지로 넘어갑니다.
 - 즐겨찾기한 단어는 단어장과 즐겨찾기 페이지에서 삭제가 가능합니다.
@@ -35,7 +35,7 @@
 
 ## (4) 단어추가
 
-![단어추가_readme](https://user-images.githubusercontent.com/102113808/182266614-98ad3631-26be-4421-82f0-913ffa786841.gif)
+![단어추가_readme](https://user-images.githubusercontent.com/102113808/190536989-13055ed1-a5c7-41f0-9426-36789d47cd0b.gif)
 
 - 일어, 발음, 뜻을 입력하면 단어를 추가할 수 있습니다.
 - 추가된 단어는 정렬할 수 있고, 삭제도 가능합니다.
@@ -45,8 +45,8 @@
 
 ## (5) 단어 맞추기
 
-![단어맞추기 1_readme](https://user-images.githubusercontent.com/102113808/182266628-58933d2d-9f60-4af9-940b-92953e0ef47b.gif)
-![단어맞추기 2_readme](https://user-images.githubusercontent.com/102113808/182266632-4b8aaa8d-81c4-4493-a79c-79917bc255ef.gif)
+![단어맞추기 1_readme](https://user-images.githubusercontent.com/102113808/190536999-dc36dde7-e425-43e8-80bf-0806106dc38a.gif)
+![단어맞추기 2_readme](https://user-images.githubusercontent.com/102113808/190537003-11de3a51-cb01-4f08-abb0-2cb9e3624ef9.gif)
 
 - 뜻을 맞추는 퀴즈와 일어를 맞추는 퀴즈 2가지가 있습니다.
 - 시작을 하면 10초가 카운터다운 되고, 정답이나 오답을 맞추면 1초 뒤에 다음문제로 넘어갑니다.
@@ -56,4 +56,4 @@
 
 ## (6) 반응형
 
-![창 크기_readme](https://user-images.githubusercontent.com/102113808/182266638-cb1503bf-3d82-41d8-ad59-92fc7bd866d6.gif)
+![창 크기_readme](https://user-images.githubusercontent.com/102113808/190537008-f5d0efb3-832d-4e01-96a4-6c97b4b367ca.gif)
