@@ -2,27 +2,19 @@
 
 ### 1. 리액트를 배우면서 제작한 사이트입니다.
 
-### 2. 로그인, 단어 검색, 즐겨찾기, 단어 추가, 퀴즈의 기능이 가능합니다.
+### 2. 단어 검색, 즐겨찾기, 단어 추가, 퀴즈의 기능이 가능합니다.
 
 ### 3. 창 크기에 따른 반응형 웹사이트
 
 ---
 
-## (1) 로그인, 로그아웃
-![로그인, 로그아웃_readme](https://user-images.githubusercontent.com/102113808/182266517-2df1934a-0a2a-4e8a-8541-46059dc5ca29.gif)
-![로그인_readme](https://user-images.githubusercontent.com/102113808/182266529-909d5418-e123-4fb5-946b-54e87828cdf0.gif)
-
-- 임의로 아이디와 비밀번호를 등록해두었고, 입력하면 메인페이지로 넘어가도록 만들었습니다.
-
----
-
-## (2) 사이드바 확인
+## (1) 사이드바 확인
 
 ![sidebar 확인_readme](https://user-images.githubusercontent.com/102113808/182266656-600d66e3-9770-47a6-bd8a-0738f54435f1.gif)
 
 ---
 
-## (3) 단어장
+## (2) 단어장
 
 ![단어장_readme](https://user-images.githubusercontent.com/102113808/182266584-273f8e2a-aa26-4306-aca4-3a10cf04db0b.gif)
 
@@ -31,7 +23,7 @@
 
 ---
 
-## (4) 즐겨찾기
+## (3) 즐겨찾기
 
 ![즐겨찾기_readme](https://user-images.githubusercontent.com/102113808/182266601-fc464de0-c431-4d2e-9f25-00c1b7df9dd0.gif)
 
@@ -41,7 +33,7 @@
 
 ---
 
-## (5) 단어추가
+## (4) 단어추가
 
 ![단어추가_readme](https://user-images.githubusercontent.com/102113808/182266614-98ad3631-26be-4421-82f0-913ffa786841.gif)
 
@@ -51,7 +43,7 @@
 
 ---
 
-## (6) 단어 맞추기
+## (5) 단어 맞추기
 
 ![단어맞추기 1_readme](https://user-images.githubusercontent.com/102113808/182266628-58933d2d-9f60-4af9-940b-92953e0ef47b.gif)
 ![단어맞추기 2_readme](https://user-images.githubusercontent.com/102113808/182266632-4b8aaa8d-81c4-4493-a79c-79917bc255ef.gif)
@@ -62,6 +54,6 @@
 
 ---
 
-## (7) 반응형
+## (6) 반응형
 
 ![창 크기_readme](https://user-images.githubusercontent.com/102113808/182266638-cb1503bf-3d82-41d8-ad59-92fc7bd866d6.gif)
